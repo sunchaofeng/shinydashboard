@@ -191,9 +191,9 @@ body <- dashboardBody(tabItems(
     )
   ),
 
-  # Boxes with solid color, using `background`
+  # Boxes with solid color, using `background`背景使用纯色框
   fluidRow(
-    # Box with textOutput
+    # Box with textOutput文本输出框
     box(
       title = "Status summary",
       background = "green",
